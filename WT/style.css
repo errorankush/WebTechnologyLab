@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  font-family: "Roboto", sans-serif;
+  background: url(https://www.akgec.ac.in/wp-content/uploads/2019/08/slider1-1.jpg);
+
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    width: 40%;
+    min-height: 70vh;
+
+}
+
+.form-items{
+    width: 100%;
+    display: grid;
+}
+
+label{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-size: 15px;
+}
+
+input{
+    padding: 2px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 1.5rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+input:focus{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    background-color: #00a100;
+    color: white;
+    width: 10rem;
+}
+
+textarea{
+    max-width: 70vh;
+    min-width: 70vh;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}

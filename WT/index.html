@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2 align="center">Student Form</h2>
+            <form action="/submit" method="post">
+                <div class="form-items">
+
+                    <label for="StudentName">Student Name</label>
+                    <input type="text" name="StudentName"  id="StudentName" required>
+                    
+                <label for="StudentNumber">Student Number</label>
+                <input type="number" name="StudentNumber" id="StudentNumber" required>
+                
+                <label for="DateofBirth">Date Of Birth</label>
+                <input type="date" name="DateofBirth" id="DateofBirth" required>
+                
+                <label for="Gender">Gender</label>
+                <select name="Gender" id="Gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                
+                <label for="PhoneNumber">Phone</label>
+                <input type="number" name="PhoneNumber" id="PhoneNumber" maxlength="10" required>
+                
+                <label for="E-Mail">E-Mail Address</label>
+                <input type="email" name="E-Mail" id="E-Mail" required>
+                
+                <label for="Address">Address</label>
+                <textarea name="Address" id="Address" required></textarea>
+            </div>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
